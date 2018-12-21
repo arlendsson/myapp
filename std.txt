@@ -1,0 +1,101 @@
+--1. Node.js 프로젝트 생성 및 개발 준비
+http://forest71.tistory.com/144
+
+
+--ECLIPSE로 NODE.JS 개발환경 구성하기
+http://www.itpaper.co.kr/eclipse%EB%A1%9C-node-js-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0/
+
+
+--node.js 기본 구조 구축하기(express-generator)
+http://html5around.com/wordpress/tutorials/node-js-%EA%B0%9C%EB%B0%9C%ED%99%98%EA%B2%BD-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0/
+
+
+--노드 서버 실행	node bin/www
+https://brunch.co.kr/@stopyeonee/5
+
+
+--view engine을 ejs로 설치
+express -e myapp
+cd myapp
+npm install
+SET DEBUG=myapp:* & npm start
+
+
+--9.5 Node.js에서 비밀 설정 정보(Secrets) 관리
+https://poiemaweb.com/nodejs-keeping-secrets
+set DB_URL="mongodb://root:rootoor1@ds139614.mlab.com:39614/myapp"
+
+
+--Node.js (5) — MongoDB and Mongoose
+https://medium.com/wasd/node-js-5-236fa76b3ba3
+
+
+--Node.js & MongoDB 연동(with Mongoose)
+https://jdm.kr/blog/21
+
+
+-11.3 Node.js(express)와 MongoDB 연동 RESTful API - Mongoose
+https://poiemaweb.com/mongoose
+
+
+--mongoose-auto-increment
+https://github.com/arlendsson/node/blob/master/node/routes/bbsMongo.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+번호
+이름
+출생연도
+나이
+개월
+성별
+중성화여부(neutralization)
+구조일
+구조자
+구조장소
+견묘구분
+견묘종(breedOf)
+견사위치
+체격
+생사여부
+대모대부명(supporter)
+대모대부지정일시
+대모대부취소일시
+비고
+사진
+친한친구
+안친한친구
+병원이력
+가족
+

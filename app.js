@@ -9,6 +9,18 @@ var usersRouter = require('./routes/users');
 
 var app = express();
 
+
+// mongoose
+const mongoose = require('mongoose');
+mongoose.Promise = global.Promise;
+mongoose.connect(process.env.DB_URL, {useMongoClient: true})
+  .then(() => console.log('successfully connected to mongodb!'))
+  .catch(e => console.error(e));
+
+const mongooseAutoIncrement = require('mongoose-auto-increment');
+mongooseAutoIncrement.initialize(mongoose);
+
+
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
